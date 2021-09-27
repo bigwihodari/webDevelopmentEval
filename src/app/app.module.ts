@@ -12,7 +12,6 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { ItemService } from './item.service';
 import { ItemsComponent } from './items/items.component';
-import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { UserComponent } from './user/user.component';
     LoginComponent,
     HomeComponent,
     ItemsComponent,
-    UserComponent
   ],
   imports: [
     BrowserModule,
