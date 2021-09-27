@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { ItemService } from './item.service';
 import { ItemsComponent } from './items/items.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ItemsComponent } from './items/items.component';
     SignUpComponent,
     LoginComponent,
     HomeComponent,
-    ItemsComponent
+    ItemsComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
